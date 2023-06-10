@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu';
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+html{
+    font-size: 55%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 2rem 9%;
+
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: rgb(9, 31, 34);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem  1rem  rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: rgb(255, 255, 255);
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 12px;
+    color: rgb(226, 223, 223);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+header .navbar a:hover{
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    background-color: #fff;
+    color:rgb(85, 145, 153);
+}
+
+.home{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(85, 145, 153) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 70rem;
+}
+
+.home .content h3{
+    font-size: 7rem;
+    color: rgb(rgb(9, 31, 34));
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color: azure;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 2rem;
+    color: rgb(9, 31, 34);
+    padding: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container{
+    width: 100%;
+}
+
+.contenido{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contenido:nth-child(2){
+    background: rgb(85, 145, 153);
+    color: white;
+}
+
+.contenido > img{
+    width: 350px;
+}
+
+.contenido > div{
+    width: 40%;
+}
+
+.contenido h1{
+    font-size: 3rem;
+    color: rgb(9, 31, 34);
+    padding: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.contenido h2{
+    font-size: 2rem;
+    color: rgb(9, 31, 34);
+    padding: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    padding: 1rem;
+    margin-top: 7rem;
+    background:rgb(85, 145, 153);
+} 
+
+.heading span{
+    color: rgb(9, 31, 34);
+}
+
+.containercards{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px rgba(0,0,0,.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+}
+
+.card .contenidocard{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenidocard p{
+    font-size: 2rem;
+    color: rgb(9, 31, 34);
+    padding: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.card .contenidocard h3{
+    font-size: 3rem;
+    color: rgb(9, 31, 34);
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.card .contenidocard a{
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    color: rgb(9, 31, 34);
+    border-radius: 4px;
+}
+
+.card .contenidocard a:hover{
+    background: rgb(9, 31, 34);
+    color: white;
+}
+
+.titulo_cursos{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(9, 31, 34);
+    padding: 1rem;
+    margin-top: 30px;
+    background:rgb(85, 145, 153);
+}
+
+.titulo_cursos span{
+    color: white;
+}
+
+.parrafo_subt{
+    font-size: 2.5rem;
+    color: rgb(9, 31, 34);
+    padding: 1rem 0;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+
+
+
+.titulo_ias{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(9, 31, 34);
+    padding: 1rem;
+    margin-top: 50px;
+    background:rgb(85, 145, 153);
+}
+
+.titulo_ias span{
+    color: white;
+}
+
+.footer .creditos{
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 20px;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: rgb(9, 31, 34);
+    border-top: 1rem solid rgba(0,0,0,.1);
+}
+
+.footer .creditos span{
+    color: rgb(85, 145, 153);
+}
