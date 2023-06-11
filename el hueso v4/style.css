@@ -291,3 +291,18 @@ header .navbar a:hover{
     scrollbar-width: thin;
   }
   
+  .card .contenidocard button{
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    color: rgb(9, 31, 34);
+    border-radius: 4px;
+}
+
+.card .contenidocard button:hover{
+    background: rgb(9, 31, 34);
+    color: white;
+}

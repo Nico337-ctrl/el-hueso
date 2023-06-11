@@ -1,3 +1,4 @@
+
 // Función para realizar el smooth scroll
 function smoothScroll(target, duration) {
   const targetElement = document.querySelector(target);
