@@ -272,8 +272,6 @@ header .navbar a:hover{
     color: rgb(85, 145, 153);
 }
 
-/* Cambiar el color del desplazamiento en navegadores compatibles */
-/* Chrome, Safari, Edge y otros navegadores basados en WebKit */
 ::-webkit-scrollbar {
     width: 10px;
   }
@@ -301,9 +299,51 @@ header .navbar a:hover{
     border: 1px solid;
     color: rgb(9, 31, 34);
     border-radius: 4px;
+    
 }
 
 .card .contenidocard button:hover{
     background: rgb(9, 31, 34);
     color: white;
 }
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    html {
+      font-size: 50%; /* Reduce el tamaño de fuente en pantallas más pequeñas */
+    }
+  
+    header .logo {
+      font-size: 2.5rem; /* Reduce el tamaño del logotipo en pantallas más pequeñas */
+    }
+  
+    header .navbar a {
+      font-size: 1.6rem; /* Reduce el tamaño de los enlaces en pantallas más pequeñas */
+      padding: 8px; /* Reduce el padding de los enlaces en pantallas más pequeñas */
+    }
+  
+    .home .content h3 {
+      font-size: 4rem; /* Reduce el tamaño del título en pantallas más pequeñas */
+    }
+  
+    .home .content span {
+      font-size: 2rem; /* Reduce el tamaño del subtítulo en pantallas más pequeñas */
+    }
+  
+    .home .content p {
+      font-size: 1.6rem; /* Reduce el tamaño del texto en pantallas más pequeñas */
+    }
+  
+    .card {
+      width: 100%; /* Hace que las tarjetas ocupen el ancho completo en pantallas más pequeñas */
+    }
+    .container .contenido h2 {
+        font-size: 1.5rem;
+    }
+
+    .containercards .contenidocard {
+        font-size: 1.5rem;
+        
+    }
+  }
+  
