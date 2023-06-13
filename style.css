@@ -196,6 +196,7 @@ header .navbar a:hover{
 }
 
 .card .contenidocard h3{
+    text-align: center;
     font-size: 3rem;
     color: rgb(9, 31, 34);
     line-height: 1.5;
