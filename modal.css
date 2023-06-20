@@ -5,30 +5,36 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
-  overflow: scroll;
+  height:  100%;
   background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
+
 
 .modal-contenido {
   text-align: justify;
   background-color: #fefefe;
   margin: 5% auto;
-  padding: 20px;
+  padding: 40px;
   border: 1px solid #888;
   max-width: 85%;
   width: 100%;
-  height: 89%;
+  height: 92%;
   position: absolute;
   left: 50%;
   top: 12px;
   transform: translateX(-50%);
   font-size: 2rem;
+  overflow: scroll;
   /*Aumentaeltamañodelafuentesegúntusnecesidades*/
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
+}
+
+.modal-contenido h2{
+  text-align: center;
 }
 
 .cerrar {
@@ -46,4 +52,17 @@
   color: #000000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+.modal .videossec{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.modal .videossec .video{
+  margin: 20px;
+  text-align: center;
 }
